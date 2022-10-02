@@ -7,4 +7,4 @@ OPS,OBP + SLG
 playerInfo,"JOIN(-,Player,Team,Pos,STR(Age))"
 homeRunThreat,(HR / AB) > 0.05
 infielder,"NOT (Pos IN ('OF','DH'))"
-ageBracket,"IF (Age > 35, 'OLD', IF(Pos = 'C' AND Age >= 30, 'OLD', 'YOUNG'))"
+ageBracket,"IF (Age > 35, 'VETERAN', IF(Pos = 'C' AND Age >= 30, 'VETERAN', 'YOUNG'))"

@@ -1,3 +1,4 @@
 
 *.class
-ANTLR4-udf/target/*
+.idea
+ANTLR4/target/*
