@@ -18,6 +18,7 @@ class TestUserDefinedFields {
                 Arguments.of("3 + 2 * 4", 11),
                 Arguments.of("(3.0 + 2) * -4", -20.0),
                 Arguments.of("(3.0 - 2) * ABS(-4)", 4.0),
+                Arguments.of("(3.0 - 2) * ABS  (-4)", 4.0),
                 Arguments.of("6 / 4", 1.5),
                 Arguments.of("6 / 2", 3),
                 Arguments.of("6 / 2.0", 3.0)

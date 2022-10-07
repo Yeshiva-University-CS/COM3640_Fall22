@@ -11,7 +11,7 @@ numExpr : '-' numExpr                              # NegNumExpr
         | left=numExpr op=('*'|'/') right=numExpr  # MulDiv
         | left=numExpr op=('+'|'-') right=numExpr  # AddSub
         | '(' numExpr ')'                          # ParensNumExpr
-        | 'ABS(' numExpr ')'                       # AbsValue
+        | 'ABS' '(' numExpr ')'                    # AbsValue
         | NUMBER_CONSTANT                          # NumConstant
         | FIELD_NAME                               # NumField
         ;
