@@ -23,7 +23,7 @@ typedef struct {
     uint pxWidth;    // Width of the image in pixels
     uint pxHeight;   // Height of the image in pixels
     uint bitDepth;   // Number of bits used to represent a single pixel
-    uint byteWidth;  // Rows are padded to a multiple of 4 bytes
+    uint byteWidth;  // Width of a row in bytes
 } ImageInfo;
 
 FILE *openFileForReading(const char *filename);
