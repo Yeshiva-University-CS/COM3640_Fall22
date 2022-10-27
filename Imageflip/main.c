@@ -11,13 +11,13 @@ Print: "Usage: imageflip <H|V|HV> <filename>"
 Do not continue processing and return an error code of of MISSING_ARGUMENTS
 
 If more than two arguments were specified:
-Print: "Warning: Ignoring extra n arguments"
+Print: "Warning: Ignoring extra ? arguments"
 (Continue processing)
 
 If the operations were not one of {H, V, HV}:
-Print: "Invalid operation: o, must be one of {H, V, HV}"
+Print: "Invalid operation: ?, must be one of {H, V, HV}"
 Return an error code of INVALID_OPERATION
-(Note, handle both upper- and lowercase letters
+(Note, handle both upper- and lowercase letters)
 
 If the input file could not be found/opened:
 Print: "Could not open input file: filename"
@@ -55,6 +55,7 @@ int main(void) {
     // TODO: extract the data we need from the header
 
     // TODO: print the image information to the stdout as below
+    //  (note the hex format of data offset)
     /*
      * px width: 256
      * px height: 256
@@ -63,7 +64,8 @@ int main(void) {
      * data offset: 0x36
      */
 
-    // TODO: print what you are going to do to stdout (one of the below)
+    // TODO: print what you are going to do to stdout
+    //  (one of the below, based on the operation)
     /*
      * Flipping the image horizontally
      * Flipping the image vertically
