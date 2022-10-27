@@ -84,6 +84,7 @@ int main(void) {
 
     // TODO: Close the file handlers
 
+    printf("Hello world sanity check\n");
     return 0;
 }
 
