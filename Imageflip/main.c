@@ -3,7 +3,7 @@
 /***************************************************
 Expect two arguments in the following order:
 Operation
-Output file namepath
+Input file namepath
 
 If less than two arguments were specified
 Print: "Missing arguments"
