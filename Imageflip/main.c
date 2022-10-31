@@ -37,7 +37,7 @@ If multiple errors exist (except in the case of MISSING_ARGUMENTS)
 Your return code should incorporate all of the relevant codes
 e.g., INVALID_OPERATION, INVALID_BMP_FILE
 e.g., INVALID_OPERATION, INVALID_BMP_FILE, OUTPUT_FILE_ERROR
-e.g., INPUT_FILE_ERROR, INPUT_FILE_ERROR
+e.g., INPUT_FILE_ERROR, OUTPUT_FILE_ERROR
 ****************************************************/
 
 int main(void) {
