@@ -54,7 +54,7 @@ int main(void) {
 
     // TODO: if at this point you have errors, go no further and return the errorcode
     // (if operation, input file & output file are good, then continue)
-    
+
     // TODO: extract the data we need from the header
 
     // TODO: print the image information to the stdout as below
