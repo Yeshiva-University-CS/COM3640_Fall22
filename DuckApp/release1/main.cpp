@@ -27,7 +27,7 @@ Look, I am swimming
 I can fly
 Displaying a Marbled duck on the screen
 -------------------
-quack quack!
+quack, quack!
 Look, I am swimming
 I can fly
 Displaying a White Pekin duck on the screen
